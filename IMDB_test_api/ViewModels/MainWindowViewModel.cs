@@ -15,6 +15,7 @@ using System.Threading.Tasks;
 using System.Drawing.Imaging;
 using System.Windows;
 using System.Media;
+using System.IO;
 
 namespace IMDB_test_api.ViewModels
 {
@@ -32,7 +33,8 @@ namespace IMDB_test_api.ViewModels
         /// Variables for the search input and index for the flipLeft and flipRight function
 
         public List<Movie> movies = new List<Movie>();
-        SoundPlayer player = new SoundPlayer(@"C:\Users\alexd\Desktop\The sacred texts\shingles_laugh.wav");
+        SoundPlayer player = new SoundPlayer( Environment.CurrentDirectory + "\\..\\..\\..\\Assets\\shingles_laugh.wav");
+       
         private int index = 0;
         
 
@@ -97,11 +99,11 @@ namespace IMDB_test_api.ViewModels
         private void SetEmptyMovieList()
         {
             
-                movieTitle = "SUS title";
-         //   if (movies[index].Rank == null)  = 0;
-             movieYear = "420BCE"; 
-            movieActors = "SUS actors";
-            image = "file:///C:/Users/alexd/source/repos/IMDB_test_api/IMDB_test_api/Assets/Untitled-3.png";
+            movieTitle = "YOU FOOL ";
+            movieYear = "420BCE"; 
+            movieActors = "WHERE'S YOUR QUERY??";
+            image = "file://" + Environment.CurrentDirectory + "/../../../Assets/NO_query.jpg";
+
             movieRank = "69"; 
             player.Play(); 
 

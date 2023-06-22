@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <None Remove="Assets\amogus.jpg" />
+    <None Remove="Assets\shingles_laugh.wav" />
     <None Remove="Assets\Untitled-3.png" />
   </ItemGroup>
 

@@ -88,7 +88,7 @@ namespace IMDB_test_api.Models
 
                 }
                 catch (System.Collections.Generic.KeyNotFoundException){
-                    photo = "C:\\Users\\alexd\\source\\repos\\IMDB_test_api\\IMDB_test_api\\Assets\\amogus.jpg";
+                    photo = Environment.CurrentDirectory + "\\..\\..\\..\\Assets\\IMG_not_found.jpg";
                 }
                 movieList.Add(new Movie { Name = title, Rank = rank, ReleaseYear = year, Actors = actors, Photo = photo });
 
