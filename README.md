@@ -1,8 +1,5 @@
 # IMDB_test_api
 
-Members: 
-
-
 Date: *27* - *06* - *2023*
 
 ## Description
@@ -16,8 +13,8 @@ The framework of our choise is Avalonia UI, due to it being available for develo
 ## Requirements/Dependensies
 
 This program need the following packages to run: 
-> `Avalonia` - for obvious reasons
-> `AsyncImageLoader`  - for loading images asynchronously from the web.
+> `Avalonia` - for obvious reasons<br>
+> `AsyncImageLoader`  - for loading images asynchronously from the web.<br>
 > `Newtonsoft.Json` - parsing JSON files from the web serve<br>
 
 **Optional Dependencies:** 
