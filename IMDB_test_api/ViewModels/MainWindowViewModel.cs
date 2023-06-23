@@ -30,10 +30,24 @@ namespace IMDB_test_api.ViewModels
         }
 
 
+
+        private void playSound()
+        {
+            try
+            {
+                SoundPlayer player = new SoundPlayer(Environment.CurrentDirectory + "\\..\\..\\..\\Assets\\shingles_laugh.wav");
+                player.Load();
+                player.Play();
+
+            }
+            catch (PlatformNotSupportedException){
+
+            }
+
+        }
         /// Variables for the search input and index for the flipLeft and flipRight function
 
         public List<Movie> movies = new List<Movie>();
-        SoundPlayer player = new SoundPlayer( Environment.CurrentDirectory + "\\..\\..\\..\\Assets\\shingles_laugh.wav");
        
         private int index = 0;
         
@@ -102,11 +116,11 @@ namespace IMDB_test_api.ViewModels
             movieTitle = "YOU FOOL ";
             movieYear = "420BCE"; 
             movieActors = "WHERE'S YOUR QUERY??";
-            image = "file://" + Environment.CurrentDirectory + "/../../../Assets/NO_query.jpg";
+            image = "file://" + Environment.CurrentDirectory + "/../../../Assets/Untitled-3.png";
+            movieRank = "69";
 
-            movieRank = "69"; 
-            player.Play(); 
-
+            //comment this if you don't want to have an annoying voice laugh at you for not knowing how movie title work 
+            playSound(); 
 
         }
         //Private Method setDisplay
