@@ -32,20 +32,20 @@ The Following images show the UML Class Diagrams of these parts:
 
 #### MODEL: 
 
-![Model](IMDB_test_api/github_images/model.png)
+![Model](/github_images/model.png)
 
 #### VIEWMODEL: 
-![ViewModel](IMDB_test_api/github_images/viewmodel.png)
+![ViewModel](/github_images/viewmodel.png)
 
 #### VIEW: 
-![view](IMDB_test_api/github_images/view.png)
+![view](/github_images/view.png)
 
 These 3 classes when added together make up the structure of our GUI program : 
 
 
 #### Whole MVVM model: 
 
-![whole](IMDB_test_api/github_images/whole.png)
+![whole](/github_images/whole.png)
 
 
 
