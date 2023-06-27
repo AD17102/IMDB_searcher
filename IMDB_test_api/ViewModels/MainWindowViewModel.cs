@@ -119,7 +119,7 @@ namespace IMDB_test_api.ViewModels
             image = "file://" + Environment.CurrentDirectory + "/../../../Assets/Untitled-3.png";
             movieRank = "69";
 
-            //comment this if you don't want to have an annoying voice laugh at you for not knowing how movie title work 
+            //comment this if you don't want to have an annoying voice laugh at you for not knowing how movie titles work 
             playSound(); 
 
         }

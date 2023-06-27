@@ -1,6 +1,6 @@
 # IMDB_test_api
 
-Members: 
+	
 
 
 Date: *27* - *06* - *2023*
@@ -16,12 +16,12 @@ The framework of our choise is Avalonia UI, due to it being available for develo
 ## Requirements/Dependensies
 
 This program need the following packages to run: 
-> `Avalonia` - for obvious reasons
-> `AsyncImageLoader`  - for loading images asynchronously from the web.
+> `Avalonia` - for obvious reasons<br>
+> `AsyncImageLoader`  - for loading images asynchronously from the web.<br>
 > `Newtonsoft.Json` - parsing JSON files from the web serve<br>
 
 **Optional Dependencies:** 
-> `System.Windows.Extensions` - playing sound files
+> `System.Windows.Extensions` - playing sound files(only works for windows-platforms)
 
 
 ## Logic
@@ -32,10 +32,10 @@ The Following images show the UML Class Diagrams of these parts:
 
 #### MODEL: 
 
-![Model](github_images/model.png)
+![Model](./github_images/model.png)
 
 #### VIEWMODEL: 
-![ViewModel](github_images/viewmodel.png)
+![ViewModel](./github_images/viewmodel.png)
 
 #### VIEW: 
 ![view](github_images/view.png)
