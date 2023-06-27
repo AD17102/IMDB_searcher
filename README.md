@@ -32,10 +32,10 @@ The Following images show the UML Class Diagrams of these parts:
 
 #### MODEL: 
 
-![Model](./github_images/model.png)
+![Model](./github_Images/model.png)
 
 #### VIEWMODEL: 
-![ViewModel](./github_images/viewmodel.png)
+![ViewModel](./github_Images/viewmodel.png)
 
 #### VIEW: 
 ![view](./github_Images/view.png)
