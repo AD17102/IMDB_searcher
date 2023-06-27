@@ -38,14 +38,14 @@ The Following images show the UML Class Diagrams of these parts:
 ![ViewModel](./github_images/viewmodel.png)
 
 #### VIEW: 
-![view](github_images/view.png)
+![view](./github_Images/view.png)
 
 These 3 classes when added together make up the structure of our GUI program : 
 
 
 #### Whole MVVM model: 
 
-![whole](github_images/whole.png)
+![whole](./github_Images/whole.png)
 
 
 
